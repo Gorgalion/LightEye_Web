@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2025-05-22T01:03:19.518336</dc:date>
+    <dc:date>2025-05-22T13:53:28.208126</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -50,7 +50,7 @@ L 93.456842 18.381904
 L 98.677895 22.491859 
 L 103.898947 27.114578 
 L 109.12 32.221264 
-" clip-path="url(#p7cf3aa464d)" style="fill: none; stroke: #000000; stroke-width: 5; stroke-linecap: square"/>
+" clip-path="url(#pcc2171ac0a)" style="fill: none; stroke: #000000; stroke-width: 5; stroke-linecap: square"/>
    </g>
    <g id="line2d_2">
     <path d="M 9.92 32.258736 
@@ -73,15 +73,15 @@ L 93.456842 46.098096
 L 98.677895 41.988141 
 L 103.898947 37.365422 
 L 109.12 32.258736 
-" clip-path="url(#p7cf3aa464d)" style="fill: none; stroke: #000000; stroke-width: 5; stroke-linecap: square"/>
+" clip-path="url(#pcc2171ac0a)" style="fill: none; stroke: #000000; stroke-width: 5; stroke-linecap: square"/>
    </g>
    <g id="patch_2">
-    <path d="M 4.96 42.16 
-L 114.08 42.16 
-L 114.08 22.32 
-L 4.96 22.32 
+    <path d="M 4.96 38.44 
+L 114.08 38.44 
+L 114.08 26.04 
+L 4.96 26.04 
 z
-" clip-path="url(#p7cf3aa464d)" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
+" clip-path="url(#pcc2171ac0a)" style="fill: #ffffff; stroke: #ffffff; stroke-linejoin: miter"/>
    </g>
    <g id="patch_3">
     <path d="M 59.52 55.056 
@@ -94,11 +94,11 @@ C 39.108038 20.385266 36.704 26.189126 36.704 32.24
 C 36.704 38.290874 39.108038 44.094734 43.386652 48.373348 
 C 47.665266 52.651962 53.469126 55.056 59.52 55.056 
 z
-" clip-path="url(#p7cf3aa464d)" style="stroke: #000000; stroke-linejoin: miter"/>
+" clip-path="url(#pcc2171ac0a)" style="stroke: #000000; stroke-linejoin: miter"/>
    </g>
    <g id="text_1">
     <!-- light -->
-    <g transform="translate(116.56 48.316406) scale(0.62 -0.62)">
+    <g transform="translate(117.552 48.316406) scale(0.62 -0.62)">
      <defs>
       <path id="Anta-Regular-6c" d="M 375 4444 
 L 1034 4444 
@@ -371,12 +371,12 @@ L 80.021333 31.737197
 L 80.462222 31.842402 
 L 80.903111 31.954546 
 L 81.344 32.056704 
-" clip-path="url(#p7cf3aa464d)" style="fill: none; stroke: #b22222; stroke-width: 2.5; stroke-linecap: square"/>
+" clip-path="url(#pcc2171ac0a)" style="fill: none; stroke: #b22222; stroke-width: 2.5; stroke-linecap: square"/>
    </g>
   </g>
  </g>
  <defs>
-  <clipPath id="p7cf3aa464d">
+  <clipPath id="pcc2171ac0a">
    <rect x="0" y="0" width="357.12" height="64.48"/>
   </clipPath>
  </defs>

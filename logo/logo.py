@@ -16,7 +16,7 @@ x = np.linspace(-0.22, 0.22, 100)
 plt.plot(x, 0.15 * cos(6 * x) ** 3 * np.cos(60 * x), color = "firebrick", lw=2.5, zorder=4)
 
 rect_width = 1.1
-rect_height = 0.2
+rect_height = 0.125
 
 rect_x = -rect_width / 2
 rect_y = -rect_height / 2
