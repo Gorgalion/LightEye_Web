@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #ffffff;
+		background: #312450;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -115,7 +115,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: rgb(0, 0, 0);
+		color: rgba(255, 255, 255, 0.55);
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
@@ -175,7 +175,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #000000;
+		color: #ffffff;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
@@ -197,10 +197,10 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #ff0000, #7e0101);
-				background-image: -webkit-linear-gradient(to right, #ff0000, #7e0101);
-				background-image: -ms-linear-gradient(to right, #ff0000, #7e0101);
-				background-image: linear-gradient(to right, #ff0000, #7e0101);
+				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: linear-gradient(to right, #5e42a6, #b74e91);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3022,7 +3022,7 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(36, 80, 43, 0.9);
+				background: rgba(49, 36, 80, 0.9);
 				content: '';
 				display: block;
 				height: 100%;
@@ -3144,7 +3144,7 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border: solid 1px rgba(27, 128, 140, 0.15);
+			border: solid 1px rgba(255, 255, 255, 0.15);
 			border-left: 0;
 			border-right: 0;
 		}
@@ -3240,7 +3240,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #ffffff;
+			background-color: #5e42a6;
 		}
 
 		.wrapper.style1-alt {
@@ -3524,7 +3524,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #000000;
+		background: #312450;
 		cursor: default;
 		height: 100vh;
 		left: 0;
