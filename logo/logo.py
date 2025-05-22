@@ -41,5 +41,5 @@ plt.text(0.6 + 1.25, 0, "eye", fontsize=62, fontweight='bold', va='center', colo
 plt.gca().set_aspect('equal')
 plt.axis('off')
 plt.ylim(-0.325, 0.325)
-plt.savefig("output/full_logo.svg", format="svg", bbox_inches='tight', pad_inches=0)  # Save as SVG
+plt.savefig("aoutput/afull_logo.svg", format="svg", bbox_inches='tight', pad_inches=0)  # Save as SVG
 plt.show()
