@@ -1,5 +1,5 @@
-@import url(fontawesome-all.min.css);
-
+/* @import url(fontawesome-all.min.css); */
+@import url(fontawesome.min.css);
 /*
 	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
@@ -2419,7 +2419,7 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
+				font-family: 'Font Awesome 6 Free';
 				font-weight: 900;
 			}
 
@@ -2499,7 +2499,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: 'Font Awesome 6 Free';
 			font-weight: 400;
 		}
 
@@ -2516,7 +2516,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+			font-family: 'Font Awesome 6 Brands';
 		}
 
 		.icon.major {
@@ -2525,7 +2525,7 @@ input, select, textarea {
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #312450;
+			color: #420000;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -2536,7 +2536,7 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
+					color: #b22222;
 				}
 
 				.wrapper.style1-alt .icon.major:before {

@@ -128,7 +128,7 @@
 
 			}
 		});
-
+		
 	// Spotlights.
 		$('.spotlights > section')
 			.scrollex({
