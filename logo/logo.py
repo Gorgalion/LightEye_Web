@@ -30,8 +30,8 @@ rect_height = 0.125
 rect_x = -rect_width / 2
 rect_y = -rect_height / 2
 
-# rect = plt.Rectangle((rect_x, rect_y), rect_width, rect_height, color='red', zorder=3)
-# ax.add_patch(rect)
+rect = plt.Rectangle((rect_x, rect_y), rect_width, rect_height, color='red', zorder=3)
+ax.add_patch(rect)
 
 circle = plt.Circle((0, 0), 0.23, color='black', zorder=3, fill=False,
     path_effects=[patheffects.withStroke(linewidth=7, foreground='white')])
@@ -42,14 +42,14 @@ plt.xlim(-0.6, 0.6)#3)
 # fontname = 'Ubuntu Mono'
 fontname = 'Anta'
 
-# plt.text(0.575, 0, "light", fontsize=62, fontweight='bold', va='center', color='black', fontname=fontname)
+plt.text(0.575, 0, "light", fontsize=62, fontweight='bold', va='center', color='black', fontname=fontname)
 
-# plt.text(0.6, 0, "lighteye", fontsize=62, fontweight='bold', va='center', color='firebrick', fontname=fontname)
+plt.text(0.6, 0, "lighteye", fontsize=62, fontweight='bold', va='center', color='firebrick', fontname=fontname)
 
-# plt.text(0.6 + 1.25, 0, "eye", fontsize=62, fontweight='bold', va='center', color = 'black', fontname=fontname)
+plt.text(0.6 + 1.25, 0, "eye", fontsize=62, fontweight='bold', va='center', color = 'black', fontname=fontname)
 
-# fig.patch.set_facecolor('black')      # Set figure background to black
-# ax.set_facecolor('black')   
+fig.patch.set_facecolor('black')      # Set figure background to black
+ax.set_facecolor('black')   
 
 plt.gca().set_aspect('equal')
 plt.axis('off')

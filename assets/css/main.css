@@ -1915,7 +1915,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #312450 !important;
+			color: #4b0000 !important;
 		}
 
 			input[type="submit"].primary:after,
@@ -2540,7 +2540,7 @@ input, select, textarea {
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #493382;
+					color: #b22222;
 				}
 
 				.wrapper.style2 .icon.major:before {
@@ -2665,6 +2665,9 @@ input, select, textarea {
 		}
 
 /* Actions */
+	.send-message-btn {
+		margin-top: 2em; /* or any value you want */
+	}
 
 	ul.actions {
 		display: -moz-flex;
@@ -3024,7 +3027,7 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
+				background: #4b0000;
 				content: '';
 				display: block;
 				height: 100%;
@@ -3493,8 +3496,12 @@ input, select, textarea {
 
 /* Footer */
 
+	#footer {
+		margin-top: -7em; /* Negative value pulls it up, adjust as needed */
+	}
+
 	#sidebar + #wrapper + #footer {
-		margin-left: 18em;
+		margin-left: 15em;
 	}
 
 		@media screen and (max-width: 1280px) {
@@ -3515,7 +3522,7 @@ input, select, textarea {
 
 	#footer > .inner .menu {
 		font-size: 0.8em;
-		color: rgba(255, 255, 255, 0.15);
+		color: #b22222;
 	}
 
 	#header + #wrapper + #footer > .inner {
