@@ -1,4 +1,5 @@
-@import url(fontawesome.min.css);
+@import url(fontawesome-all.min.css);
+
 /*
 	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
@@ -97,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #000000;
+		background: #ffffff;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -114,7 +115,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.55);
+		color: rgb(0, 0, 0);
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
@@ -174,7 +175,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #000000;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
@@ -196,10 +197,10 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #ff0000, #7e0101);
+				background-image: -webkit-linear-gradient(to right, #ff0000, #7e0101);
+				background-image: -ms-linear-gradient(to right, #ff0000, #7e0101);
+				background-image: linear-gradient(to right, #ff0000, #7e0101);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -1798,7 +1799,7 @@ input, select, textarea {
 
 	.box {
 		border-radius: 0.25em;
-		border: solid 1px rgba(0, 0, 0, 0.15);
+		border: solid 1px rgba(255, 255, 255, 0.15);
 		margin-bottom: 2em;
 		padding: 1.5em;
 	}
@@ -1831,13 +1832,13 @@ input, select, textarea {
 		-ms-transition: border-color 0.2s ease;
 		transition: border-color 0.2s ease;
 		background-color: transparent;
-		border: solid 2px !important;
-		border-color: #ffffff !important;
+		border: solid 1px !important;
+		border-color: rgba(255, 255, 255, 0.15) !important;
 		border-radius: 3em;
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
-		font-size: 0.7em;
+		font-size: 0.6em;
 		font-weight: bold;
 		height: calc(4.75em + 2px);
 		letter-spacing: 0.25em;
@@ -1865,7 +1866,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease, -webkit-transform 0.2s ease;
 			-ms-transition: opacity 0.2s ease, -ms-transform 0.2s ease;
 			transition: opacity 0.2s ease, transform 0.2s ease;
-			background: #4b0000;
+			background: #ffffff;
 			border-radius: 3em;
 			content: '';
 			height: 100%;
@@ -1914,7 +1915,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #4b0000 !important;
+			color: #312450 !important;
 		}
 
 			input[type="submit"].primary:after,
@@ -2418,7 +2419,7 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 6 Free';
+				font-family: 'Font Awesome 5 Free';
 				font-weight: 900;
 			}
 
@@ -2498,7 +2499,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 6 Free';
+			font-family: 'Font Awesome 5 Free';
 			font-weight: 400;
 		}
 
@@ -2515,7 +2516,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 6 Brands';
+			font-family: 'Font Awesome 5 Brands';
 		}
 
 		.icon.major {
@@ -2524,7 +2525,7 @@ input, select, textarea {
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #420000;
+			color: #312450;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -2535,11 +2536,11 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #b22222;
+					color: #5e42a6;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #b22222;
+					color: #493382;
 				}
 
 				.wrapper.style2 .icon.major:before {
@@ -2664,9 +2665,6 @@ input, select, textarea {
 		}
 
 /* Actions */
-	.send-message-btn {
-		margin-top: 2em; /* or any value you want */
-	}
 
 	ul.actions {
 		display: -moz-flex;
@@ -2682,8 +2680,6 @@ input, select, textarea {
 		ul.actions li {
 			padding: 0 0 0 1em;
 			vertical-align: middle;
-			margin-top: 7em;
-			 margin-left:40px;
 		}
 
 		ul.actions.special {
@@ -3026,7 +3022,7 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: #4b0000;
+				background: rgba(36, 80, 43, 0.9);
 				content: '';
 				display: block;
 				height: 100%;
@@ -3148,7 +3144,7 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border: solid 1px rgba(255, 255, 255, 0.15);
+			border: solid 1px rgba(27, 128, 140, 0.15);
 			border-left: 0;
 			border-right: 0;
 		}
@@ -3202,6 +3198,7 @@ input, select, textarea {
 			table.alt tfoot {
 				border-top: 0;
 			}
+
 
 /* Wrapper */
 
@@ -3374,7 +3371,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #000000;
+		background-color: #5e42a6;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3469,7 +3466,7 @@ input, select, textarea {
 /* Wrapper (main) */
 
 	#sidebar + #wrapper {
-		margin-left: 15em;
+		margin-left: 18em;
 	}
 
 		@media screen and (max-width: 1280px) {
@@ -3495,12 +3492,8 @@ input, select, textarea {
 
 /* Footer */
 
-	#footer {
-		margin-top: -7em; /* Negative value pulls it up, adjust as needed */
-	}
-
 	#sidebar + #wrapper + #footer {
-		margin-left: 15em;
+		margin-left: 18em;
 	}
 
 		@media screen and (max-width: 1280px) {
@@ -3521,7 +3514,7 @@ input, select, textarea {
 
 	#footer > .inner .menu {
 		font-size: 0.8em;
-		color: #b22222;
+		color: rgba(255, 255, 255, 0.15);
 	}
 
 	#header + #wrapper + #footer > .inner {
@@ -3541,7 +3534,7 @@ input, select, textarea {
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 15em;
+		width: 18em;
 		z-index: 10000;
 	}
 
@@ -3747,7 +3740,7 @@ input, select, textarea {
 			border: 0;
 			color: rgba(255, 255, 255, 0.35);
 			display: block;
-			font-size: 0.7em;
+			font-size: 0.6em;
 			font-weight: bold;
 			letter-spacing: 0.25em;
 			line-height: 1.75;
@@ -3769,14 +3762,14 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #4b0000;
+				background: #3c2c62;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #ff0000, #4b0000);
-				background-image: -webkit-linear-gradient(to right, #ff0000, #4b0000);
-				background-image: -ms-linear-gradient(to right, #ff0000, #4b0000);
-				background-image: linear-gradient(to right, #ff0000, #4b0000);
+				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: linear-gradient(to right, #5e42a6, #b74e91);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3890,7 +3883,6 @@ input, select, textarea {
 
 		#intro p {
 			font-size: 1.25em;
-			color: #ffffff;
 		}
 
 			@media screen and (max-width: 980px) {
