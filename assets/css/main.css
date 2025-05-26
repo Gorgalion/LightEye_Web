@@ -2664,9 +2664,9 @@ input, select, textarea {
 		}
 
 /* Actions */
-	.send-message-btn {
+	/* .send-message-btn {
 		margin-top: 2em; /* or any value you want */
-	}
+	/* } */ 
 
 	ul.actions {
 		display: -moz-flex;
