@@ -2665,7 +2665,7 @@ input, select, textarea {
 
 /* Actions */
 	.send-message-btn {
-		margin-top: 2em; /* or any value you want */
+		margin-top: 2em;
 	}
 
 	ul.actions {
