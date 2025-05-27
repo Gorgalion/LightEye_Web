@@ -3921,9 +3921,9 @@ input, select, textarea {
 			height: auto;
 		}
 		
-		@media screen and (max-width: 600px) {
+		@media screen and (max-width: 1000px) {
 			#intro img {
 				max-width: 100%;
-				/* align-items: center; */
+				align-items: center;
 			}
 		}
