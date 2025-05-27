@@ -2612,6 +2612,25 @@ input, select, textarea {
 				width: 100%;
 			}
 
+
+
+@media screen and (max-width: 736px) {
+    .image.left {
+        float: none;
+        display: block;
+        margin: 0 0 2em 0;
+        max-width: 100%;
+        width: 100%;
+    }
+    .image.left img {
+        width: 100%;
+    }
+}
+
+
+
+
+
 /* List */
 
 	ol {
