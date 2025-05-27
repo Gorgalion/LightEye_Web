@@ -3945,6 +3945,6 @@ input, select, textarea {
 			#intro .logo {
 				max-width: 100%;
 				align-items: center;
-				margin-left: -2em;
+				margin-left: 0em;
 			}
 		}
