@@ -3876,14 +3876,7 @@ input, select, textarea {
 		}
 
 /* Intro */
-	.intro-image {
-		display: block;
-		float: left;
-		margin-right: 2em;
-		max-width: 200px;
-		height: auto;
-	}
-	
+
 	#intro {
 		background-attachment: fixed;
 		background-image: url("images/intro.svg");
@@ -3920,3 +3913,34 @@ input, select, textarea {
 			}
 
 		}
+
+		#intro img {
+			display: block;
+			float: right;
+			/* margin-top: -10em; */
+			/* margin-left: 2em; */
+			max-width: 60%;
+			height: auto;
+			/* align-self:; */
+		}
+/* 
+	.intro-image {
+		display: block;
+		float: left;
+		margin-right: 2em;
+		max-width: 200px;
+		height: auto;
+	}
+	
+	@media screen and (max-width: 600px) {
+		.intro-image {
+			float: none;
+			margin: 0 auto 1em auto;
+			display: block;
+			max-width: 80%;
+			text-align: center;
+		}
+		#intro .inner {
+			text-align: center;
+		}
+	} */
