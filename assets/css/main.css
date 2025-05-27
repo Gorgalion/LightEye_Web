@@ -3916,31 +3916,14 @@ input, select, textarea {
 
 		#intro img {
 			display: block;
-			float: right;
-			/* margin-top: -10em; */
-			/* margin-left: 2em; */
+			margin-left: 2em;
 			max-width: 60%;
 			height: auto;
-			/* align-self:; */
 		}
-/* 
-	.intro-image {
-		display: block;
-		float: left;
-		margin-right: 2em;
-		max-width: 200px;
-		height: auto;
-	}
-	
-	@media screen and (max-width: 600px) {
-		.intro-image {
-			float: none;
-			margin: 0 auto 1em auto;
-			display: block;
-			max-width: 80%;
-			text-align: center;
+		
+		@media screen and (max-width: 600px) {
+			#intro img {
+				max-width: 90%;
+				align-items: center;
+			}
 		}
-		#intro .inner {
-			text-align: center;
-		}
-	} */
