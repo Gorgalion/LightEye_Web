@@ -3915,18 +3915,15 @@ input, select, textarea {
 		}
 
 		#intro img {
-			display: flex;
-			flex-direction: column;
-			justify-content: center; /* vertical center */
-			align-items: center; 
-			/* display: block; */
-			/* margin-left: 2em; */
+			display: block;
+			margin-left: 2em;
 			max-width: 60%;
 			height: auto;
 		}
 		
-		@media screen and (max-width: 1000px) {
+		@media screen and (max-width: 600px) {
 			#intro img {
+				margin-left: 10em;
 				max-width: 90%;
 				align-items: center;
 			}
