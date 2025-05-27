@@ -3914,8 +3914,9 @@ input, select, textarea {
 
 		}
 
-		#intro img {
+		/* #intro img {
 			display: block;
+			margin-top: 2em;
 			margin-left: 2em;
 			max-width: 60%;
 			height: auto;
@@ -3926,4 +3927,4 @@ input, select, textarea {
 				max-width: 100%;
 				align-items: center;
 			}
-		}
+		} */
