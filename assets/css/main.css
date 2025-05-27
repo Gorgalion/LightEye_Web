@@ -3914,7 +3914,7 @@ input, select, textarea {
 
 		}
 
-		/* #intro img {
+		#intro .logo {
 			display: block;
 			margin-top: 2em;
 			margin-left: 2em;
@@ -3923,8 +3923,8 @@ input, select, textarea {
 		}
 		
 		@media screen and (max-width: 1000px) {
-			#intro img {
+			#intro .logo {
 				max-width: 100%;
 				align-items: center;
 			}
-		} */
+		}
