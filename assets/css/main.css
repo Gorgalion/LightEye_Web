@@ -3915,8 +3915,12 @@ input, select, textarea {
 		}
 
 		#intro img {
-			display: block;
-			margin-left: 2em;
+			display: flex;
+			flex-direction: column;
+			justify-content: center; /* vertical center */
+			align-items: center; 
+			/* display: block; */
+			/* margin-left: 2em; */
 			max-width: 60%;
 			height: auto;
 		}
