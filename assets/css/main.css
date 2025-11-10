@@ -186,7 +186,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 2.75em;
+		font-size: 2em;
 	}
 
 		h1.major {
@@ -2612,25 +2612,6 @@ input, select, textarea {
 				width: 100%;
 			}
 
-
-
-@media screen and (max-width: 736px) {
-    .image.left {
-        float: none;
-        display: block;
-        margin: 0 0 2em 0;
-        max-width: 100%;
-        width: 100%;
-    }
-    .image.left img {
-        width: 100%;
-    }
-}
-
-
-
-
-
 /* List */
 
 	ol {
@@ -2683,6 +2664,9 @@ input, select, textarea {
 		}
 
 /* Actions */
+	.send-message-btn {
+		margin-top: 2em; /* or any value you want */
+	}
 
 	ul.actions {
 		display: -moz-flex;
@@ -3931,20 +3915,4 @@ input, select, textarea {
 				background-attachment: scroll;
 			}
 
-		}
-
-		#intro .logo {
-			display: block;
-			margin-top: 2em;
-			margin-left: 2em;
-			max-width: 60%;
-			height: auto;
-		}
-		
-		@media screen and (max-width: 1000px) {
-			#intro .logo {
-				max-width: 100%;
-				align-items: center;
-				margin-left: 0em;
-			}
 		}
