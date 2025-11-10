@@ -22,7 +22,7 @@ y2 = -cos(1.5 * x2)
 plt.plot(x2, y2 + 0.7315, color = c2, lw=5)
 
 x = np.linspace(-0.22, 0.22, 100)
-plt.plot(x, 0.15 * cos(6 * x) ** 3 * np.cos(60 * x), color = "firebrick", lw=2.5, zorder=4)
+plt.plot(x, 0.15 * cos(6 * x) ** 3 * np.cos(60 * x), color = "#A91E21", lw=2.5, zorder=4)
 
 rect_width = 1.1
 rect_height = 0.2
@@ -41,7 +41,7 @@ plt.xlim(-0.6, 3)
 # fontname = 'Ubuntu Mono'
 fontname = 'Anta'
 
-plt.text(0.575, 0, "light", fontsize=62, fontweight='bold', va='center', color='firebrick', fontname=fontname)
+plt.text(0.575, 0, "light", fontsize=62, fontweight='bold', va='center', color='#A91E21', fontname=fontname) # firebrick
 
 plt.text(0.6 + 1.25, 0, "eye", fontsize=62, fontweight='bold', va='center', color = c2, fontname=fontname)
 
