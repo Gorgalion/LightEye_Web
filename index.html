@@ -1,185 +1,284 @@
-<!DOCTYPE HTML>
-<!--
-	Website for LightEye
--->
-<html>
-	<head>
-		<title>LightEye</title>
-		<link rel="icon" type="image/png" href="images/mini_logo.png" />
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LightEye</title>
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-	<body class="is-preload">
-		<!-- Sidebar -->
-			<section id="sidebar">
-				<div class="inner">
-					<nav>
-						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">What we do</a></li>
-							<li><a href="#two">Who we are</a></li>
-							<li><a href="#three">Get in touch</a></li>
-						</ul>
-					</nav>
-				</div>
-			</section>
+  <header class="navbar">
+    <div class="logo-area">
+      <img src="images/title.png" alt="LightEye logo" class="logo" />
+    </div>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
-				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner" style="text-align: center;">
-							<div class="box alt" style="display: flex; justify-content: center; align-items: center;">
-								<div class="col-12"><span class="image"><img src="images/logo_dark.svg" alt="" style="width:700px; height:auto;"/></span></div>
-							</div>
+    <nav class="nav-menu">
 
-							<h1>Every year, the wind energy sector generates 110 billion dollars.</h1>
-							<br />
-							<h1>Every year, it loses 5 billion dollars due to errors in wind data.</h1>
-							<br />
-							<span class="image"><img src="images/network.png" alt="" style="width:400px; height:auto;"/></span>
-							<h1>LightEye offers the most accurate AND scalable wind forecasts to capture every single one of the 5 billion dollars.</h1>
-							<br />
-						</div>
-					</section>
+<a href="#about" class="nav-link">About</a>
+<a href="#services" class="nav-link">Services</a>
+<a href="#projects" class="nav-link">Portfolio</a>
+<a href="#contact" class="nav-link">Contact</a>
 
-					<!-- One -->
-					<section id="one" class="wrapper style1 fade-up">
-						<div class="inner">
-							<h2>What we do</h2>
-							<p>We help wind energy producers and traders save money with our state-of-the-art, real-time wind database.</p>
-							<div class="features">
-								<section>
-									<span class="icon solid major fa-solid fa-fan"></span>
-									<h3>Wind Farms</h3>
-									<p>Wind farms need to constantly optimize the direction of their turbines to maximize energy capture and minimize wear and tear.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-solid fa-money-bill-trend-up"></span>
-									<h3>Energy Traders</h3>
-									<p>Energy traders depend on accurate, real-time wind data to make informed decisions maximizing trading efficiency and grid compliance</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-solid fa-network-wired"></span>
-									<h3>Wind Forecast</h3>
-									<p>We provide the most accurate and scalable wind data thanks to our extensive LiDAR network and data processing techniques.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-solid fa-satellite-dish"></span>
-									<h3>Wind LiDAR Network</h3>
-									<p>Our database is powered by the largest wind LiDAR network in Europe, built using CERN's advanced lasers.</p>
-								</section>
-							</div>
-						</div>
-					</section>
+</nav>
+  </header>
 
-					<!-- Two -->
-					<section id="two" class="wrapper style2 spotlights">
-						<section>
-							<a href="https://www.linkedin.com/in/georgios-stoikos-5445411ab/" class="image left"><img src="images/georgios.JPG" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>George Stoikos</h2>
-									<p>Entrepreneur and founder of LightEye, he went from developing laser systems at CERN to research in quantum technologies. Now he is building affordable deep tech for your company.</p>
-								</div>
-							</div>
-						</section>
+  <section class="hero">
+  <div class="hero-text">
+    <h1>Advanced Embedded Systems Engineering</h1>
 
-						<section>
-							<a href="https://www.linkedin.com/in/ioannis-tsormpatzoglou-6091371ba/?originalSubdomain=gr" class="image left"><img src="images/giannis.jpeg" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Yiannis Tsormpatzoglou</h2>
-									<p>Entrepreneur and co-founder of LightEye, he brings technical expertise and passion from the labs of NCSR Demokritos to the Energy Industry.</p>
-								</div>
-							</div>
-						</section>
-					</section>
+    <p class="hero-tags">FPGA • Embedded Linux • DAQ • Real-Time DSP</p>
 
-				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up">
-						<div class="inner">
-							<h2>Get in touch</h2>
-							<p>For questions, ideas and anything else we can help with:</p>
-							<div class="split style1">
+    <p class="hero-description">
+      Designing high-performance hardware systems for research labs,
+      startups and industrial platforms
+    </p>
 
-								<section>
-									<form
-									action="https://formspree.io/f/xgvkjroa"
-									method="POST"
-									>
-										<div class="fields">
-											<div class="field half">
-												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
-											</div>
-											<div class="field half">
-												<label for="email">Email</label>
-												<input type="text" name="email" id="email" />
-											</div>
-											<div class="field">
-												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li class="send-message-btn"></li><a class="button submit">Send Message</a></li>
-										</ul>
-									</form>
-								</section>
-								
-								<section>
-									<ul class="contact">
-										<li>
-											<h3>Address</h3>
-											<span>71-75 Shelton Street<br />
-											London, WC2H 9JQ<br />
-											United Kingdom</span>
-										</li>
-										<li>
-											<h3>Email</h3>
-											<a href="mailto:georgios.stoikos@lighteye.ch">georgios.stoikos@lighteye.ch</a>
-										</li>
-										<li>
-											<h3>Phone</h3>
-											<span>(+41) 77 99 33 091</span>
-										</li>
-										<li>
-											<h3>Social</h3>
-											<ul class="icons">
-												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-											</ul>
-										</li>
-									</ul>
-								</section>
-							</div>
-						</div>
-					</section>
+    <div class="hero-buttons">
+      <a href="#contact" class="hero-btn">Start a project</a>
+      <a href="#projects" class="hero-btn">View portfolio</a>
+    </div>
+  </div>
 
-			</div>
+  <div class="hero-image">
+    <img src="images/photo1.png" alt="Embedded board" />
+  </div>
+</section>
+  
+  
+  
+  <section id="about" class="about reveal">
+  <div class="about-image">
+    <img src="images/photo2.png" alt="engineer">
+  </div>
+  <div class="about-text">
+    <h2>Get to Know Us</h2>
+    <p>
+      LightEye is an embedded systems consultancy based in Geneva, Switzerland.
+      We design and debug high-performance FPGA and embedded platforms,
+      bringing experience from CERN, EPFL, and the University of Geneva.
+    </p>
+  </div>
+</section>
 
-		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li> LightEye. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
 
-	</body>
+<section id="services" class="expertise reveal">
+  <div class="expertise-header">
+    <p>Embedded Systems Engineering</p>
+    <h2>Our Expertise</h2>
+  </div>
+
+  <div class="expertise-grid">
+    <div class="expertise-card">
+      <div class="expertise-icon">●●●</div>
+      <h3>High-Speed FPGA &<br>Digital Architecture</h3>
+      <p>Designing high-throughput<br>FPGA systems</p>
+    </div>
+
+    <div class="expertise-card">
+      <div class="expertise-icon">●●●</div>
+      <h3>Embedded Linux &<br>Driver Bring-Up</h3>
+      <p>Hardware that actually boots</p>
+    </div>
+
+    <div class="expertise-card">
+      <div class="expertise-icon">●●●</div>
+      <h3>High-Performance<br>Embedded Software</h3>
+      <p>Deterministic firmware<br>Reliable systems</p>
+    </div>
+
+    <div class="expertise-card">
+      <div class="expertise-icon">●●●</div>
+      <h3>System Integration<br>& Debug Expertise</h3>
+      <p>When others are stuck, we fix it.</p>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="projects reveal">
+  <div class="projects-header">
+    <h2>Our Projects</h2>
+    <div class="projects-grid">
+
+  <div class="project-card">
+    <div class="project-text">
+      <span class="project-label">High-Speed DSP</span>
+      <h3>Heterodyne Interferometry FPGA System</h3>
+      <ul>
+        <li>3.5 Gbps</li>
+        <li>I/Q demod</li>
+        <li>Fixed Point DSP</li>
+        <li>Precision phase extraction</li>
+      </ul>
+    </div>
+    <div class="project-image">
+      <img src="images/photo3.png" alt="High-Speed DSP project">
+    </div>
+  </div>
+
+  <div class="project-card">
+    <div class="project-text">
+      <span class="project-label">Coherent LiDAR</span>
+      <h3>Real-Time Doppler Wind LiDAR Processing</h3>
+      <ul>
+        <li>3.5 Gbps</li>
+        <li>FFT & spectral processing</li>
+        <li>Ethernet Streaming</li>
+        <li>System Architecture</li>
+      </ul>
+    </div>
+    <div class="project-image">
+      <img src="images/photo3.png" alt="LiDAR project">
+    </div>
+  </div>
+
+  <div class="project-card">
+    <div class="project-text">
+      <span class="project-label">PCIe</span>
+      <h3>PCIe FPGA DAQ & Driver</h3>
+      <ul>
+        <li>Linux Drivers</li>
+        <li>PCIe Core</li>
+        <li>DMA</li>
+        <li>Interrupt handling</li>
+      </ul>
+    </div>
+    <div class="project-image">
+      <img src="images/photo4.png" alt="PCIe project">
+    </div>
+  </div>
+
+  <div class="project-card">
+    <div class="project-text">
+      <span class="project-label">Embedded Linux</span>
+      <h3>Custom Hardware Bring-Up & System Integration</h3>
+      <ul>
+        <li>Boot chain debugging</li>
+        <li>Device tree configuration</li>
+        <li>Peripheral drivers</li>
+        <li>Performance tuning & debugging</li>
+      </ul>
+    </div>
+    <div class="project-image">
+      <img src="images/photo4.png" alt="Embedded Linux project">
+    </div>
+  </div>
+
+  <div class="project-card">
+    <div class="project-text">
+      <span class="project-label">RISC-V Architecture</span>
+      <h3>Custom FPGA RISC-V SoC Platform</h3>
+      <ul>
+        <li>CPU soft-core integration</li>
+        <li>AXI interconnect</li>
+        <li>Memory-mapped peripherals</li>
+        <li>Bare-metal firmware development</li>
+      </ul>
+    </div>
+    <div class="project-image">
+      <img src="images/photo5.png" alt="RISC-V project">
+    </div>
+  </div>
+
+  <div class="project-card">
+    <div class="project-text">
+      <span class="project-label">Software-Defined Radio</span>
+      <h3>Real-Time SDR Signal Processing Platform</h3>
+      <ul>
+        <li>Digital down-conversion</li>
+        <li>FFT & filtering chains</li>
+        <li>RF front-end integration</li>
+        <li>High-rate data streaming</li>
+      </ul>
+    </div>
+    <div class="project-image">
+      <img src="images/photo5.png" alt="SDR project">
+    </div>
+  </div>
+
+</div>
+    
+  </div>
+</section>
+
+<section id="contact" class="contact reveal">
+  <div class="contact-left">
+
+    <p class="contact-small">Ready to Elevate Your System?</p>
+
+    <h2>Get in Touch</h2>
+
+    <form class="contact-form">
+
+      <div class="form-row">
+
+        <div class="input-group">
+          <label>First name *</label>
+          <input type="text">
+        </div>
+
+        <div class="input-group">
+          <label>Last name *</label>
+          <input type="text">
+        </div>
+
+      </div>
+
+      <div class="input-group">
+        <label>Email *</label>
+        <input type="email">
+      </div>
+
+      <div class="input-group">
+        <label>Phone</label>
+        <input type="text">
+      </div>
+
+      <div class="input-group">
+        <label>Write a message</label>
+        <textarea></textarea>
+      </div>
+
+      <button class="submit-btn">Submit</button>
+
+    </form>
+
+  </div>
+
+  <div class="contact-right">
+    <img src="images/photo6.png">
+  </div>
+
+</section>
+
+<footer class="footer">
+
+  <div class="footer-top">
+
+    <div class="footer-logo">
+      <img src="images/title.png">
+    </div>
+
+    <div class="footer-contact">
+      <p>Servette 1202, Geneva, Switzerland</p>
+      <p>georgios.stoikos@lighteye.ch</p>
+      <p>+41 77 99 33 091</p>
+      <a href="https://www.linkedin.com/company/lighteye/" target="_blank">
+        Follow us on LinkedIn
+<img src="" width="30">
+</a>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 LightEye — Embedded Systems Engineering. All rights reserved.</p>
+  </div>
+
+</footer>
+<script src="script.js"></script>
+
+</body>
 </html>
-
