@@ -1,284 +1,806 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LightEye</title>
-  <link rel="icon" type="image/png" href="images/logo.png">
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+  <head>
+    <title>LightEye</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="LightEye" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="public/mini_logo.png" type="image/svg+xml" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <div class="home-container1">
+        <navigation-wrapper class="navigation-wrapper">
+          <div class="navigation-container1">
+            <nav class="navigation-wrapper">
+              <div
+                class="navigation-thq-navigation-container-elm navigation-container"
+              >
+                <a href="index.html" class="navigation-navlink1">
+                  <div
+                    aria-label="LightEye Home"
+                    class="navigation-thq-navigation-brand-elm1 navigation-brand"
+                  ></div>
+                </a>
+                <img
+                  alt="image"
+                  src="public/logo.svg"
+                  class="navigation-image"
+                />
+                <div class="navigation-desktop-menu">
+                  <ul class="navigation-links">
+                    <li>
+                      <a href="#services">
+                        <div class="navigation-link"><span>Services</span></div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#how-it-works">
+                        <div class="navigation-link"><span>Process</span></div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#projects">
+                        <div class="navigation-link"><span>Projects</span></div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#capabilities">
+                        <div class="navigation-link">
+                          <span>Capabilities</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#about">
+                        <div class="navigation-link"><span>About</span></div>
+                      </a>
+                    </li>
+                  </ul>
+                  <a href="mailto:george.lighteye@gmail.com?subject=LightEye_Engineering" class="navigation-link15">
+                    <div class="navigation-cta btn-primary btn btn-sm">
+                      <span>Discuss Project</span>
+                    </div>
+                  </a>
+                </div>
+                <button
+                  id="mobile-toggle"
+                  aria-label="Toggle navigation menu"
+                  aria-expanded="false"
+                  class="navigation-mobile-toggle"
+                >
+                  <svg
+                    fill="none"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M4 6h16M4 12h16M4 18h16"></path>
+                  </svg>
+                </button>
+              </div>
+            </nav>
+            <div id="mobile-overlay" class="navigation-mobile-overlay">
+              <div class="navigation-overlay-header">
+                <a href="index.html" class="navigation-navlink2">
+                  <div aria-label="LightEye Home" class="navigation-brand">
+                    <span class="section-title navigation-brand-name">
+                      LightEye
+                    </span>
+                  </div>
+                </a>
+                <button
+                  id="mobile-close"
+                  aria-label="Close navigation menu"
+                  class="navigation-mobile-close"
+                >
+                  <svg
+                    fill="none"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M18 6L6 18M6 6l12 12"></path>
+                  </svg>
+                </button>
+              </div>
+              <div class="navigation-overlay-content">
+                <ul class="navigation-mobile-links">
+                  <li>
+                    <a href="#services">
+                      <div class="navigation-mobile-link">
+                        <span>Services</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#how-it-works">
+                      <div class="navigation-mobile-link">
+                        <span>Process</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#projects">
+                      <div class="navigation-mobile-link">
+                        <span>Projects</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#capabilities">
+                      <div class="navigation-mobile-link">
+                        <span>Capabilities</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#about">
+                      <div class="navigation-mobile-link">
+                        <span>About</span>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+                <div class="navigation-overlay-footer">
+                  <a href="mailto:george.lighteye@gmail.com?subject=LightEye_Engineering" class="navigation-link21">
+                    <div class="btn-primary btn-lg navigation-mobile-cta btn">
+                      <span>Discuss Your Project</span>
+                    </div>
+                  </a>
+                  <p class="navigation-location">Geneva, Switzerland</p>
+                </div>
+              </div>
+            </div>
 
-  <header class="navbar">
-    <div class="logo-area">
-      <img src="images/title.png" alt="LightEye logo" class="logo" />
-    </div>
+          </div>
+        </navigation-wrapper>
+        <section class="hero-section">
+          <div class="hero-media-wrapper">
+            <img
+              alt="High-speed PCB Design Macro"
+              src="https://images.pexels.com/photos/36169769/pexels-photo-36169769.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+              class="hero-bg-image"
+            />
+            <div class="hero-overlay"></div>
+          </div>
+          <div class="hero-content-container">
+            <div class="hero-text-block">
+              <h1 class="hero-title home-hero-title">
+                From concept to working hardware.
+              </h1>
+              <p class="hero-subtitle home-hero-subtitle">
+                Swiss electronics engineering consultancy specializing in rapid
+                prototyping, embedded systems, and high-performance hardware for
+                startups and R&amp;D teams.
+              </p>
+              <div class="hero-cta-group">
+                <a href="mailto:george.lighteye@gmail.com?subject=LightEye_Engineering" class="home-link1">
+                  <div class="btn-primary btn-xl btn">
+                    <span>Discuss Your Project</span>
+                    <svg
+                      fill="none"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="20"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M5 12h14m-7-7l7 7l-7 7"></path>
+                    </svg>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="services" class="services-overview">
+          <div class="services-container">
+            <h2 class="section-title">Services Overview</h2>
+            <div class="services-grid">
+              <div class="service-card">
+                <div class="service-icon-wrapper">
+                  <svg
+                    fill="none"
+                    width="32"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="32"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M12 20v2m0-20v2m5 16v2m0-20v2M2 12h2m-2 5h2M2 7h2m16 5h2m-2 5h2M20 7h2M7 20v2M7 2v2"
+                    ></path>
+                    <rect x="4" y="4" rx="2" width="16" height="16"></rect>
+                    <rect x="8" y="8" rx="1" width="8" height="8"></rect>
+                  </svg>
+                </div>
+                <h3 class="service-name">Rapid Electronics Prototyping</h3>
+                <p class="section-content">
+                  Accelerated hardware iteration from schematic capture to
+                  functional PCBA. We prioritize speed without compromising
+                  Swiss engineering precision.
+                </p>
+              </div>
+              <div class="service-card">
+                <div class="service-icon-wrapper">
+                  <svg
+                    fill="none"
+                    width="32"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="32"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0a2.34 2.34 0 0 0 3.319 1.915a2.34 2.34 0 0 1 2.33 4.033a2.34 2.34 0 0 0 0 3.831a2.34 2.34 0 0 1-2.33 4.033a2.34 2.34 0 0 0-3.319 1.915a2.34 2.34 0 0 1-4.659 0a2.34 2.34 0 0 0-3.32-1.915a2.34 2.34 0 0 1-2.33-4.033a2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915"
+                    ></path>
+                    <circle r="3" cx="12" cy="12"></circle>
+                  </svg>
+                </div>
+                <h3 class="service-name">Embedded Systems</h3>
+                <p class="section-content">
+                  Firmware development for STM32 and ESP32 platforms. Real-time
+                  operating systems (RTOS) and bare-metal optimization for
+                  industrial applications.
+                </p>
+              </div>
+              <div class="service-card">
+                <div class="service-icon-wrapper">
+                  <svg
+                    fill="none"
+                    width="32"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="32"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"
+                    ></path>
+                    <path
+                      d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"
+                    ></path>
+                    <path
+                      d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="service-name">PCB Design</h3>
+                <p class="section-content">
+                  Multi-layer high-speed digital and precision analog layouts.
+                  Expertise in EMI/EMC compliance and signal integrity for
+                  complex instrumentation.
+                </p>
+              </div>
+              <div class="service-card">
+                <div class="service-icon-wrapper">
+                  <svg
+                    fill="none"
+                    width="32"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="32"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="service-name">FPGA &amp; High-Speed Systems</h3>
+                <p class="section-content">
+                  Xilinx Zynq and Artix-7 implementation. High-speed data
+                  acquisition (ADC/DAC) and real-time signal processing on
+                  programmable logic.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="how-it-works" class="workflow-section">
+          <div class="workflow-container">
+            <h2 class="section-title">Workflow — Concept to Prototype</h2>
+            <div class="workflow-steps">
+              <div class="step-item">
+                <div class="step-number"><span>01</span></div>
+                <div class="step-content">
+                  <h4 class="step-title">Concept</h4>
+                  <p class="section-content">
+                    Requirement analysis and feasibility studies. Technical
+                    specification finalization.
+                  </p>
+                </div>
+              </div>
+              <div class="step-item">
+                <div class="step-number"><span>02</span></div>
+                <div class="step-content">
+                  <h4 class="step-title">Architecture</h4>
+                  <p class="section-content">
+                    Component selection and system-level design. Defining
+                    communication protocols and power budgets.
+                  </p>
+                </div>
+              </div>
+              <div class="step-item">
+                <div class="step-number"><span>03</span></div>
+                <div class="step-content">
+                  <h4 class="step-title">Design</h4>
+                  <p class="section-content">
+                    Schematic capture, PCB layout, and firmware framework
+                    development.
+                  </p>
+                </div>
+              </div>
+              <div class="step-item">
+                <div class="step-number"><span>04</span></div>
+                <div class="step-content">
+                  <h4 class="step-title">Build</h4>
+                  <p class="section-content">
+                    Sourcing components, assembly, and initial board bring-up in
+                    our Geneva lab.
+                  </p>
+                </div>
+              </div>
+              <div class="step-item">
+                <div class="step-number"><span>05</span></div>
+                <div class="step-content">
+                  <h4 class="step-title">Working Prototype</h4>
+                  <p class="section-content">
+                    Final verification, technical documentation, and delivery of
+                    functional hardware.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="workflow-footer">
+              <p class="section-content">
+                Typical turnaround: 4-8 weeks from architecture to functional
+                prototype.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="projects" class="selected-projects">
+          <div class="projects-container">
+            <h2 class="section-title">Selected Projects</h2>
+            <div class="projects-grid">
+              <div class="project-card">
+                <div class="project-media">
+                  <img
+                    alt="Precision Instrumentation Project"
+                    src="https://images.pexels.com/photos/132700/pexels-photo-132700.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    class="project-image"
+                  />
+                </div>
+                <div class="project-info">
+                  <h3 class="service-name">Precision Signal Analyzer</h3>
+                  <p class="section-content">
+                    High-speed ADC integration with STM32H7 for real-time
+                    industrial sensor monitoring at 2MSPS.
+                  </p>
+                </div>
+              </div>
+              <div class="project-card">
+                <div class="project-media">
+                  <img
+                    alt="FPGA Control System"
+                    src="https://images.pexels.com/photos/18471567/pexels-photo-18471567.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    class="project-image"
+                  />
+                </div>
+                <div class="project-info">
+                  <h3 class="service-name">Zynq-based Motion Controller</h3>
+                  <p class="section-content">
+                    FPGA-accelerated PID control loops for high-precision
+                    robotic actuators using Xilinx Zynq-7000.
+                  </p>
+                </div>
+              </div>
+              <div class="project-card">
+                <div class="project-media">
+                  <img
+                    alt="IoT Hardware Node"
+                    src="https://images.pexels.com/photos/6755081/pexels-photo-6755081.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    class="project-image"
+                  />
+                </div>
+                <div class="project-info">
+                  <h3 class="service-name">Ultra-Low Power IoT Node</h3>
+                  <p class="section-content">
+                    ESP32-based environmental monitor with custom power
+                    management for 5-year battery life.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="capabilities" class="capabilities-snapshot">
+          <div class="capabilities-container">
+            <h2 class="section-title">Capabilities Snapshot</h2>
+            <div class="capabilities-grid">
+              <div class="capability-item">
+                <h4 class="capability-heading">Core Hardware</h4>
+                <ul class="capability-list">
+                  <li class="section-content">
+                    <span>Multi-layer PCB Design</span>
+                  </li>
+                  <li class="section-content">
+                    <span>STM32 &amp; ESP32 Ecosystems</span>
+                  </li>
+                  <li class="section-content">
+                    <span>FPGA (Xilinx Zynq / Artix)</span>
+                  </li>
+                  <li class="section-content">
+                    <span>Precision Analog Front-ends</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="capability-item">
+                <h4 class="capability-heading">Data &amp; Control</h4>
+                <ul class="capability-list">
+                  <li class="section-content"><span>ADC/DAC Systems</span></li>
+                  <li class="section-content">
+                    <span>High-speed Data Acquisition</span>
+                  </li>
+                  <li class="section-content">
+                    <span>Real-time Signal Processing</span>
+                  </li>
+                  <li class="section-content">
+                    <span>Firmware (C/C++, VHDL)</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="capability-item">
+                <h4 class="capability-heading">Communication</h4>
+                <ul class="capability-list">
+                  <li class="section-content">
+                    <span>Ethernet &amp; CAN Bus</span>
+                  </li>
+                  <li class="section-content">
+                    <span>Industrial SPI / I2C</span>
+                  </li>
+                  <li class="section-content">
+                    <span>UART / RS485 / RS232</span>
+                  </li>
+                  <li class="section-content">
+                    <span>Wireless (BLE, Wi-Fi, LoRa)</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="capability-item">
+                <h4 class="capability-heading">Instrumentation</h4>
+                <ul class="capability-list">
+                  <li class="section-content">
+                    <span>Sensor Fusion &amp; Interfacing</span>
+                  </li>
+                  <li class="section-content">
+                    <span>Power Management (PMIC)</span>
+                  </li>
+                  <li class="section-content">
+                    <span>EMI/EMC Pre-compliance</span>
+                  </li>
+                  <li class="section-content">
+                    <span>Test Rig Automation</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="about" class="about-section">
+          <div class="about-container">
+            <div class="about-content">
+              <h2 class="section-title">Geneva Engineering Consultancy</h2>
+              <p class="section-content">
+                LightEye is a specialized engineering consultancy based in
+                Geneva, Switzerland. We are a team of senior engineers dedicated
+                to bridging the gap between theoretical concepts and functional
+                electronic hardware.
+              </p>
+              <p class="section-content">
+                We provide additional engineering capacity to CTOs, R&amp;D
+                managers, and startups who require rapid, high-quality
+                prototyping without the overhead of internal hardware
+                departments. Our focus is on technical precision and accelerated
+                delivery cycles.
+              </p>
+            </div>
+            <div class="about-visual">
+              <img
+                alt="LightEye Engineering Lab Geneva"
+                src="https://images.pexels.com/photos/19895784/pexels-photo-19895784.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                class="about-image"
+              />
+            </div>
+          </div>
+        </section>
+        <section class="final-cta">
+          <div class="cta-container">
+            <div class="cta-card">
+              <div class="cta-header">
+                <h2 class="section-title">Have a prototype in mind?</h2>
+                <p class="section-content">
+                  Tell us about your technical requirements. We respond within
+                  24 hours to discuss feasibility and timelines.
+                </p>
+              </div>
+              <div class="cta-form-wrapper">
+                <a href="mailto:george.lighteye@gmail.com?subject=LightEye_Engineering">
+                  <div class="btn-primary btn-xl btn">
+                    <span>Email Your Project Details</span>
+                    <svg
+                      fill="none"
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="20"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M5 12h14m-7-7l7 7l-7 7"></path>
+                    </svg>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
 
-    <nav class="nav-menu">
+        <footer-wrapper class="footer-wrapper">
+          <div class="footer-container1">
+            <footer class="footer-root">
+              <div class="footer-container">
+                <div class="footer-layout">
+                  <div class="footer-brand footer-column">
+                    <div class="footer-logo-wrap">
+                      <div class="footer-logo-icon">
+                        <svg
+                          width="24"
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="24"
+                          viewBox="0 0 24 24"
+                        >
+                          <g
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path
+                              d="M12 20v2m0-20v2m5 16v2m0-20v2M2 12h2m-2 5h2M2 7h2m16 5h2m-2 5h2M20 7h2M7 20v2M7 2v2"
+                            ></path>
+                            <rect
+                              x="4"
+                              y="4"
+                              rx="2"
+                              width="16"
+                              height="16"
+                            ></rect>
+                            <rect
+                              x="8"
+                              y="8"
+                              rx="1"
+                              width="8"
+                              height="8"
+                            ></rect>
+                          </g>
+                        </svg>
+                      </div>
+                      <span class="footer-logo-text">LightEye</span>
+                    </div>
+                    <p class="section-content footer-description">
+                      Swiss electronics engineering consultancy based in Geneva.
+                      Specialist in rapid hardware prototyping and embedded
+                      systems.
+                    </p>
+                    <div class="footer-socials">
+                      <a href="https://www.linkedin.com/company/lighteye/" class="footer-link1" target="_blank" rel="noreferrer">
+                        <div aria-label="LinkedIn" class="footer-social-link">
+                          <svg
+                            width="24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="24"
+                            viewBox="0 0 24 24"
+                          >
+                            <g
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            >
+                              <path
+                                d="M8 11v5m0-8v.01M12 16v-5m4 5v-3a2 2 0 1 0-4 0"
+                              ></path>
+                              <path
+                                d="M3 7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z"
+                              ></path>
+                            </g>
+                          </svg>
+                        </div>
+                      </a>
+                      <!-- <a href="#" class="footer-link2">
+                        <div aria-label="GitHub" class="footer-social-link">
+                          <svg
+                            width="24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="24"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2c2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2a4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6c-.6.6-.6 1.2-.5 2V21"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            ></path>
+                          </svg>
+                        </div>
+                      </a> -->
+                    </div>
+                  </div>
+                  <div class="footer-column">
+                    <h3 class="section-subtitle footer-heading">
+                      Capabilities
+                    </h3>
+                    <ul class="footer-nav">
+                      <li class="footer-nav-item">
+                        <a href="#">
+                          <div class="footer-nav-link">
+                            <span>PCB Design</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="footer-nav-item">
+                        <a href="#">
+                          <div class="footer-nav-link">
+                            <span>Embedded Systems</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="footer-nav-item">
+                        <a href="#">
+                          <div class="footer-nav-link">
+                            <span>FPGA &amp; Zynq</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="footer-nav-item">
+                        <a href="#">
+                          <div class="footer-nav-link">
+                            <span>STM32 / ESP32</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="footer-nav-item">
+                        <a href="#">
+                          <div class="footer-nav-link">
+                            <span>High-Speed DAQ</span>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="footer-column">
+                    <h3 class="section-subtitle footer-heading">
+                      Geneva Office
+                    </h3>
+                    <div class="footer-contact-info">
+                      <div class="footer-info-item">
+                        <svg
+                          width="20"
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="20"
+                          viewBox="0 0 24 24"
+                        >
+                          <g
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path
+                              d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                            ></path>
+                            <circle r="3" cx="12" cy="10"></circle>
+                          </g>
+                        </svg>
+                        <span class="section-content">
+                          Rue Hoffmann, 1202 Genève, Switzerland
+                        </span>
+                      </div>
+                      <div class="footer-info-item">
+                        <svg
+                          width="20"
+                          xmlns="http://www.w3.org/2000/svg"
+                          height="20"
+                          viewBox="0 0 24 24"
+                        >
+                          <g
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path
+                              d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+                            ></path>
+                            <rect
+                              x="2"
+                              y="4"
+                              rx="2"
+                              width="20"
+                              height="16"
+                            ></rect>
+                          </g>
+                        </svg>
+                        <span class="section-content">
+                          george.lighteye@gmail.com
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer-bottom">
+                  <div class="section-content footer-copyright">
+                    <span>
+                      © 2026 LightEye Engineering. All rights reserved.
+                    </span>
+                  </div>
+                  <div class="footer-legal-links">
+                    <a href="#" class="footer-link8">
+                      <div class="footer-legal-link">
+                        <span>Terms of Service</span>
+                      </div>
+                    </a>
+                    <a href="#" class="footer-link9">
+                      <div class="footer-legal-link">
+                        <span>Privacy Policy</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </footer>
 
-<a href="#about" class="nav-link">About</a>
-<a href="#services" class="nav-link">Services</a>
-<a href="#projects" class="nav-link">Portfolio</a>
-<a href="#contact" class="nav-link">Contact</a>
-
-</nav>
-  </header>
-
-  <section class="hero">
-  <div class="hero-text">
-    <h1>Advanced Embedded Systems Engineering</h1>
-
-    <p class="hero-tags">FPGA • Embedded Linux • DAQ • Real-Time DSP</p>
-
-    <p class="hero-description">
-      Designing high-performance hardware systems for research labs,
-      startups and industrial platforms
-    </p>
-
-    <div class="hero-buttons">
-      <a href="#contact" class="hero-btn">Start a project</a>
-      <a href="#projects" class="hero-btn">View portfolio</a>
-    </div>
-  </div>
-
-  <div class="hero-image">
-    <img src="images/photo1.png" alt="Embedded board" />
-  </div>
-</section>
-  
-  
-  
-  <section id="about" class="about reveal">
-  <div class="about-image">
-    <img src="images/photo2.png" alt="engineer">
-  </div>
-  <div class="about-text">
-    <h2>Get to Know Us</h2>
-    <p>
-      LightEye is an embedded systems consultancy based in Geneva, Switzerland.
-      We design and debug high-performance FPGA and embedded platforms,
-      bringing experience from CERN, EPFL, and the University of Geneva.
-    </p>
-  </div>
-</section>
-
-
-
-<section id="services" class="expertise reveal">
-  <div class="expertise-header">
-    <p>Embedded Systems Engineering</p>
-    <h2>Our Expertise</h2>
-  </div>
-
-  <div class="expertise-grid">
-    <div class="expertise-card">
-      <div class="expertise-icon">●●●</div>
-      <h3>High-Speed FPGA &<br>Digital Architecture</h3>
-      <p>Designing high-throughput<br>FPGA systems</p>
-    </div>
-
-    <div class="expertise-card">
-      <div class="expertise-icon">●●●</div>
-      <h3>Embedded Linux &<br>Driver Bring-Up</h3>
-      <p>Hardware that actually boots</p>
-    </div>
-
-    <div class="expertise-card">
-      <div class="expertise-icon">●●●</div>
-      <h3>High-Performance<br>Embedded Software</h3>
-      <p>Deterministic firmware<br>Reliable systems</p>
-    </div>
-
-    <div class="expertise-card">
-      <div class="expertise-icon">●●●</div>
-      <h3>System Integration<br>& Debug Expertise</h3>
-      <p>When others are stuck, we fix it.</p>
-    </div>
-  </div>
-</section>
-
-<section id="projects" class="projects reveal">
-  <div class="projects-header">
-    <h2>Our Projects</h2>
-    <div class="projects-grid">
-
-  <div class="project-card">
-    <div class="project-text">
-      <span class="project-label">High-Speed DSP</span>
-      <h3>Heterodyne Interferometry FPGA System</h3>
-      <ul>
-        <li>3.5 Gbps</li>
-        <li>I/Q demod</li>
-        <li>Fixed Point DSP</li>
-        <li>Precision phase extraction</li>
-      </ul>
-    </div>
-    <div class="project-image">
-      <img src="images/photo3.png" alt="High-Speed DSP project">
-    </div>
-  </div>
-
-  <div class="project-card">
-    <div class="project-text">
-      <span class="project-label">Coherent LiDAR</span>
-      <h3>Real-Time Doppler Wind LiDAR Processing</h3>
-      <ul>
-        <li>3.5 Gbps</li>
-        <li>FFT & spectral processing</li>
-        <li>Ethernet Streaming</li>
-        <li>System Architecture</li>
-      </ul>
-    </div>
-    <div class="project-image">
-      <img src="images/photo3.png" alt="LiDAR project">
-    </div>
-  </div>
-
-  <div class="project-card">
-    <div class="project-text">
-      <span class="project-label">PCIe</span>
-      <h3>PCIe FPGA DAQ & Driver</h3>
-      <ul>
-        <li>Linux Drivers</li>
-        <li>PCIe Core</li>
-        <li>DMA</li>
-        <li>Interrupt handling</li>
-      </ul>
-    </div>
-    <div class="project-image">
-      <img src="images/photo4.png" alt="PCIe project">
-    </div>
-  </div>
-
-  <div class="project-card">
-    <div class="project-text">
-      <span class="project-label">Embedded Linux</span>
-      <h3>Custom Hardware Bring-Up & System Integration</h3>
-      <ul>
-        <li>Boot chain debugging</li>
-        <li>Device tree configuration</li>
-        <li>Peripheral drivers</li>
-        <li>Performance tuning & debugging</li>
-      </ul>
-    </div>
-    <div class="project-image">
-      <img src="images/photo4.png" alt="Embedded Linux project">
-    </div>
-  </div>
-
-  <div class="project-card">
-    <div class="project-text">
-      <span class="project-label">RISC-V Architecture</span>
-      <h3>Custom FPGA RISC-V SoC Platform</h3>
-      <ul>
-        <li>CPU soft-core integration</li>
-        <li>AXI interconnect</li>
-        <li>Memory-mapped peripherals</li>
-        <li>Bare-metal firmware development</li>
-      </ul>
-    </div>
-    <div class="project-image">
-      <img src="images/photo5.png" alt="RISC-V project">
-    </div>
-  </div>
-
-  <div class="project-card">
-    <div class="project-text">
-      <span class="project-label">Software-Defined Radio</span>
-      <h3>Real-Time SDR Signal Processing Platform</h3>
-      <ul>
-        <li>Digital down-conversion</li>
-        <li>FFT & filtering chains</li>
-        <li>RF front-end integration</li>
-        <li>High-rate data streaming</li>
-      </ul>
-    </div>
-    <div class="project-image">
-      <img src="images/photo5.png" alt="SDR project">
-    </div>
-  </div>
-
-</div>
-    
-  </div>
-</section>
-
-<section id="contact" class="contact reveal">
-  <div class="contact-left">
-
-    <p class="contact-small">Ready to Elevate Your System?</p>
-
-    <h2>Get in Touch</h2>
-
-    <form class="contact-form">
-
-      <div class="form-row">
-
-        <div class="input-group">
-          <label>First name *</label>
-          <input type="text">
-        </div>
-
-        <div class="input-group">
-          <label>Last name *</label>
-          <input type="text">
-        </div>
-
+          </div>
+        </footer-wrapper>
       </div>
-
-      <div class="input-group">
-        <label>Email *</label>
-        <input type="email">
-      </div>
-
-      <div class="input-group">
-        <label>Phone</label>
-        <input type="text">
-      </div>
-
-      <div class="input-group">
-        <label>Write a message</label>
-        <textarea></textarea>
-      </div>
-
-      <button class="submit-btn">Submit</button>
-
-    </form>
-
-  </div>
-
-  <div class="contact-right">
-    <img src="images/photo6.png">
-  </div>
-
-</section>
-
-<footer class="footer">
-
-  <div class="footer-top">
-
-    <div class="footer-logo">
-      <img src="images/title.png">
     </div>
-
-    <div class="footer-contact">
-      <p>Servette 1202, Geneva, Switzerland</p>
-      <p>georgios.stoikos@lighteye.ch</p>
-      <p>+41 77 99 33 091</p>
-      <a href="https://www.linkedin.com/company/lighteye/" target="_blank">
-        Follow us on LinkedIn
-<img src="" width="30">
-</a>
-    </div>
-
-  </div>
-
-  <div class="footer-bottom">
-    <p>© 2026 LightEye — Embedded Systems Engineering. All rights reserved.</p>
-  </div>
-
-</footer>
-<script src="script.js"></script>
-
-</body>
+  </body>
 </html>

@@ -1,0 +1,8 @@
+{
+  "name": "lighteye-static-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "python3 -m http.server 8000"
+  }
+}
