@@ -218,10 +218,14 @@
     <footer class="footer">
       <div class="container footer-inner">
         <div class="footer-brand">
-          <div class="logo footer-logo">
-            <img class="brand-logo" src="assets/logo.svg" alt="LightEye" />
+          <div class="logo-group">
+            <div class="logo footer-logo">
+              <img class="brand-logo" src="assets/logo.svg" alt="LightEye" />
+            </div>
+            <a href="https://www.linkedin.com/company/lighteye" class="footer-linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <svg class="linkedin-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" stroke="none" width="48" height="48"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+            </a>
           </div>
-          <p class="footer-desc">Affordable wind lidars designed for large-scale deployment and distributed atmospheric sensing networks.</p>
         </div>
         <nav class="footer-links">
           <a href="#what-we-offer">What we offer</a>
@@ -236,52 +240,6 @@
         <p class="footer-tag">Conquer the wind.</p>
       </div>
     </footer>
-
-    <!-- Contact Modal -->
-    <div id="contactModal" class="modal-overlay" style="display:none">
-      <div class="modal-backdrop" id="modalBackdrop"></div>
-      <div class="modal">
-        <button class="modal-close" id="modalClose" aria-label="Close">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
-        </button>
-        <div class="modal-body" id="modalBody">
-          <div class="modal-header">
-            <span class="eyebrow" id="modalInterest">Talk to LightEye</span>
-            <h3 class="modal-title">Let's talk</h3>
-            <p class="modal-desc">Tell us about your deployment, research, or application. We'll follow up to discuss next steps.</p>
-          </div>
-          <form id="contactForm" class="modal-form">
-            <div class="form-field">
-              <label>Name</label>
-              <input type="text" id="fName" required placeholder="Your name" />
-            </div>
-            <div class="form-field">
-              <label>Email</label>
-              <input type="email" id="fEmail" required placeholder="you@example.com" />
-            </div>
-            <div class="form-field">
-              <label>Organization</label>
-              <input type="text" id="fOrg" placeholder="Company or institution" />
-            </div>
-            <div class="form-field">
-              <label>Message</label>
-              <textarea id="fMessage" required rows="4" placeholder="Tell us about your interest in LightEye..."></textarea>
-            </div>
-            <div id="formError" class="form-error" style="display:none">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-              Something went wrong. Please try again.
-            </div>
-            <button type="submit" class="btn-primary btn-full" id="submitBtn">Send message</button>
-          </form>
-        </div>
-        <div class="modal-success" id="modalSuccess" style="display:none">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 15.01 9 12.01"/></svg>
-          <h3>Message sent</h3>
-          <p>Thank you for reaching out. The LightEye team will get back to you shortly.</p>
-          <button class="btn-outline" id="modalSuccessClose">Close</button>
-        </div>
-      </div>
-    </div>
     <script src="script.js"></script>
   </body>
 </html>
