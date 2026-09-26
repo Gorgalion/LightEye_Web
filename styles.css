@@ -37,9 +37,24 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 input, textarea { font-family: inherit; }
 
 /* ===== Layout ===== */
-.container { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
-@media (min-width: 768px) { .container { padding: 0 48px; } }
-@media (min-width: 1024px) { .container { padding: 0 80px; } }
+.container {
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 40px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 48px;
+  }
+}
 
 .container-relative { position: relative; z-index: 10; }
 .text-center { text-align: center; }
@@ -243,7 +258,7 @@ input, textarea { font-family: inherit; }
 }
 
 .hero-eyebrow {
-  display: flex; align-items: center; gap: 8px; margin-bottom: 32px;
+  display: flex; align-items: center; gap: 4px; margin-bottom: 32px;
   animation: fadeIn 0.8s ease-out 0.1s forwards; opacity: 0;
 }
 .hero-wind-icon { width: 16px; height: 16px; color: var(--firebrick); }
@@ -255,10 +270,17 @@ input, textarea { font-family: inherit; }
   font-size: 48px; font-weight: 700; letter-spacing: -0.03em;
   line-height: 0.95; text-wrap: balance;
   animation: fadeUp 0.8s ease-out 0.2s forwards; opacity: 0;
+
 }
-@media (min-width: 640px) { .hero-title { font-size: 60px; } }
-@media (min-width: 768px) { .hero-title { font-size: 72px; } }
-.hero-title-accent { color: var(--ink-300); }
+@media (min-width: 640px) { .hero-title { font-size: 52px; } }
+@media (min-width: 768px) { .hero-title { font-size: 52px; } }
+
+.hero-title-accent { 
+  color: var(--ink-300);
+  font-size: 72px;
+  display: inline-block;
+  margin-top: 20px;
+}
 .hero-subtitle {
   margin-top: 32px; font-size: 20px; font-weight: 300;
   color: var(--ink-200); letter-spacing: -0.02em;
@@ -498,14 +520,14 @@ input, textarea { font-family: inherit; }
 .hero-title-line { white-space: nowrap; }
 @media (min-width: 900px) {
   .hero-layout { grid-template-columns: minmax(0, 0.98fr) minmax(340px, 0.82fr); gap: 96px; }
-  .hero-title { font-size: 72px; }
+  .hero-title { font-size: 52px; }
 }
 @media (min-width: 1100px) {
   .hero-layout { gap: 120px; }
-  .hero-title { font-size: 80px; }
+  .hero-title { font-size: 52px; }
 }
 @media (min-width: 1024px) and (max-width: 1099px) {
-  .hero-title { font-size: 72px; }
+  .hero-title { font-size: 52px; }
 }
 
 /* ===== Validation plot ===== */
